@@ -130,7 +130,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tapeke_app"
+        applicationId "com.importadora_dhm_app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 40113

@@ -1,7 +1,7 @@
 {
-  "name": "tapeke_app",
-  "version": "4.1.13",
-  "description": "tapeke_app",
+  "name": "importadora_dhm_app",
+  "version": "1.0.0",
+  "description": "importadora_dhm_app",
   "scripts": {
     "start": "react-native start",
     "build": "react-scripts build",

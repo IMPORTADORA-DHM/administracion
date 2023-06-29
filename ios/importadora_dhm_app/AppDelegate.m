@@ -45,7 +45,7 @@ static void InitializeFlipper(UIApplication *application) {
   [bridge moduleForClass:[RCTDevLoadingView class]];
 #endif
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
-                                                   moduleName:@"tapeke_app"
+                                                   moduleName:@"importadora_dhm_app"
                                             initialProperties:nil];
 
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];

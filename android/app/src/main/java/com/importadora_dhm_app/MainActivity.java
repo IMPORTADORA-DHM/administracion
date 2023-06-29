@@ -1,4 +1,4 @@
-package com.tapeke_app;
+package com.importadora_dhm_app;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "tapeke_app";
+    return "importadora_dhm_app";
   }
 }
