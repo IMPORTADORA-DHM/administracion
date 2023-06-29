@@ -51,7 +51,7 @@
     "react-native-svg": "^12.1.1",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-web": "^0.17.1",
-    "react-redux": "^7.2.4",
+    "react-redux": "7.2.4",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
     "servisofts-component": "2.11.14",
