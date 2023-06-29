@@ -5,7 +5,7 @@ import { WebView } from 'react-native';
 import SSocket from 'servisofts-socket';
 import Model from '../../Model';
 import { AccentBar, PButtom } from '../../Components';
-import usuario_dato from '../../Model/tapeke/usuario_dato';
+// import usuario_dato from '../../Model/tapeke/usuario_dato';
 
 
 class index extends Component {

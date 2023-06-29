@@ -6,14 +6,14 @@ import Redux, { store } from './Redux';
 import Config from "./Config";
 import Assets from './Assets';
 import Pages from './Pages';
-import Firebase from './Firebase';
+// import Firebase from './Firebase';
 import DeviceKey from "./Firebase/DeviceKey"
 import { NavBar, TopBar } from './Components';
 import StatusBar from './Components/StatusBar';
 
 
 setProps(Config.socket);
-Firebase.init();
+// Firebase.init();
 DeviceKey.init();
 const App = (props) => {
     return <Redux>
@@ -28,7 +28,7 @@ const App = (props) => {
             <SNavigation
                 props={{
                     navBar: TopBar,
-                    title: 'Tapeke', pages: Pages
+                    title: 'DHM', pages: Pages
                 }}
             />
             <SSocket
@@ -38,12 +38,12 @@ const App = (props) => {
                     return {
                         data: usuario ? usuario : {},
                         deviceKey: DeviceKey.getKey(),
-                        firebase: {
-                            platform: Platform.OS,
-                            token: DeviceKey.getKey(),
-                            key_usuario: usuario?.key,
-                            app: "client"
-                        }
+                        // firebase: {
+                        //     platform: Platform.OS,
+                        //     token: DeviceKey.getKey(),
+                        //     key_usuario: usuario?.key,
+                        //     app: "client"
+                        // }
                     };
                 }}
             />

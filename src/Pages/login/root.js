@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { SHr, SIcon, SNavigation, SPage, SPopup, SText, STheme, SView } from 'servisofts-component';
 import { AccentBar, Container } from '../../Components';
-import SectionApis from './components/SectionApis';
+// import SectionApis from './components/SectionApis';
 import SectionFooter from './components/SectionFooter';
 import SectionForm from './components/SectionForm';
 import SectionHeader from './components/SectionHeader';
@@ -30,7 +30,7 @@ class login extends Component {
                         <SHr height={16} />
                         <SectionForm ref={ref => this._sectionForm = ref} />
                         <SHr height={25} />
-                        <SectionApis/>
+                        {/* <SectionApis/> */}
                         <SHr height={35} />
                         <SectionFooter onPress={() => {
                             this._sectionForm.submit();
