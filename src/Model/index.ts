@@ -1,9 +1,9 @@
-import { SModel } from "servisofts-model";
+// import { SModel } from "servisofts-model";
 import Usuario from "servisofts-rn-usuario";
 import Roles_permisos from "servisofts-rn-roles_permisos";
 import Geolocation from "servisofts-rn-geolocation"
 import Chat from 'servisofts-rn-chat'
-import tapeke from "./tapeke";
+import dhm from "./dhm";
 
 
 const Model = {
@@ -11,7 +11,7 @@ const Model = {
     ...Roles_permisos.Model,
     ...Geolocation.Model,
     ...Chat.Model,
-    ...tapeke,
+    ...dhm,
 }
 
 Usuario.init({
@@ -32,5 +32,5 @@ Chat.init({});
 
 export default {
     ...Model,
-    ...SModel.declare(Model)
+    // ...SModel.declare(Model)
 }
